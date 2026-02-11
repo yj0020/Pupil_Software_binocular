@@ -16,8 +16,6 @@ class HyperParameters:
 
         # Image base paths
         # NOTE: NEG/POS are split:
-        #   1~15  -> Image/<NEG|POS>/high/
-        #   16~30 -> Image/<NEG|POS>/low/
         # monitor_2.py will resolve high/low automatically from the filename index.
         self.NEG_Image_Base_Path = os.path.join(self.base_path, 'Image', 'NEG')
         self.NEU_Image_Base_Path = os.path.join(self.base_path, 'Image', 'NEU')
